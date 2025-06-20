@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>T-GVC: Trajectory-guided Generative Video Coding</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 40px;
+    }
+        h1 {
+      	text-align: center;
+      	margin-bottom: 60px;
+            color: #333;
+        }
+
+        .section {
+            margin: 40px auto;
+            max-width: 1600px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        p {
+      	text-align: center;
+border-radius: 3px;
+        }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+    }
+.abstract-card {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+.abstract-card h2 {
+  margin-top: 0;
+}
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+     .media-container {
+            margin-top: 20px;
+      }
+    .video-card {
+      background: white;
+      padding: 12px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .caption {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #555;
+    }
+
+  </style>
+</head>
+<body>
+
+<a href="https://github.com/Chigland/T-GVC/tree/main" target="_blank" style="
+    display: inline-block;
+    padding: 10px 16px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+    background-color: #24292e;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: sans-serif;
+">
+  🔗 View on GitHub
+</a>
+
+<div class="abstract-card">
+    <h1>T-GVC: Trajectory-guided Generative Video Coding</h1>
+    <p> Zhitao Wang, Hengyu Man, Wenrui Li, Xingtao Wang, Xiaopeng Fan, Debin Zhao</p>
+
+    <h2>Abstract</h2>
+    <p>
+Recent advances in video generation techniques have given rise to an emerging paradigm of generative video coding, aiming to achieve semantically accurate reconstructions in Ultra-Low Bitrate (ULB) scenarios by leveraging strong generative priors. However, most existing methods are limited by domain specificity (e.g., facial or human videos) and an excessive dependence on high-level text guidance, which often fails to capture motion details and results in unrealistic reconstructions. To address these challenges, we propose a trajectory-guided generative video coding framework (dubbed T-GVC). T-GVC employs a semantic-aware sparse motion sampling pipeline to effectively bridge low-level motion tracking with high-level semantic understanding by extracting pixel-wise motion as sparse trajectory points based on their semantic importance, not only significantly reducing the bitrate but also preserving critical temporal semantic information. In addition, by incorporating trajectory-aligned loss constraints into diffusion processes, we introduce a training-free latent space guidance mechanism to ensure physically plausible motion patterns without sacrificing the inherent capabilities of generative models. Experimental results demonstrate that our framework outperforms both traditional codecs and state-of-the-art end-to-end video compression methods under ULB conditions. Furthermore, additional experiments confirm that our approach achieves more precise motion control than existing text-guided methods, paving the way for a novel direction of generative video coding guided by geometric motion modeling.
+</p>
+ </div>
+
+    <div class="section">
+        <h2>Visual Results</h2>
+    <div class="grid">
+    <video controls autoplay loop muted>
+      <source src="results/T-GVC/videoSRC12_1920x1080_30_traj.mp4" type="video/mp4">
+    </video>
+
+    <video controls autoplay loop muted>
+      <source src="results/T-GVC/YachtRide_1920x1080_120fps_420_8bit_traj.mp4" type="video/mp4">
+    </video>
+
+    <video controls autoplay loop muted>
+      <source src="results/T-GVC/Jockey_1920x1080_120fps_420_8bit_YUV_1.mp4" type="video/mp4">
+    </video>
+
+    <video controls autoplay loop muted>
+      <source src="results/T-GVC/Beauty_1920x1080_120fps_420_8bit_YUV_traj.mp4" type="video/mp4">
+    </video>
+
+    <video controls autoplay loop muted>
+      <source src="results/T-GVC/Johnny_1280x720_60_traj.mp4" type="video/mp4">
+    </video>
+
+    <video controls autoplay loop muted>
+      <source src="results/T-GVC/Cactus_1920x1080_50_traj.mp4" type="video/mp4">
+    </video>
+   </div>
+
+<h2>Comparative Result</h2>
+   <div class="grid">
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/T-GVC/BasketballDrill_832x480_traj.mp4" type="video/mp4">
+      </video>
+      <div class="caption">T-GVC demo 1: BasketballDrill</div>
+    </div>
+
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/T-GVC/YachtRide_1920x1080_120fps_420_8bit_traj.mp4" type="video/mp4">
+      </video>
+      <div class="caption">T-GVC demo 2: YachtRide</div>
+    </div>
+
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/T-GVC/HoneyBee_1920x1080_120fps_420_8bit_YUV_traj.mp4" type="video/mp4">
+      </video>
+      <div class="caption">T-GVC demo 3: HoneyBee</div>
+    </div>
+
+
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/VTM/VTM_basket.mp4" type="video/mp4">
+      </video>
+      <div class="caption">VTM demo 1: BasketballDrill</div>
+    </div>
+
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/VTM/VTM_YachtRide.mp4" type="video/mp4">
+      </video>
+      <div class="caption">VTM demo 2: YachtRide</div>
+    </div>
+
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/VTM/VTM_HoneyBee.mp4" type="video/mp4">
+      </video>
+      <div class="caption">VTM demo 3: HoneyBee</div>
+    </div>
+
+
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/DCVC/DCVC_basket.mp4" type="video/mp4">
+      </video>
+      <div class="caption">DCVC-FM demo 1: BasketballDrill</div>
+    </div>
+
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/DCVC/DCVC_YachtRide.mp4" type="video/mp4">
+      </video>
+      <div class="caption">DCVC-FM demo 2: YachtRide</div>
+    </div>
+
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/DCVC/DCVC_HoneyBee.mp4" type="video/mp4">
+      </video>
+      <div class="caption">DCVC-FM demo 3: HoneyBee</div>
+    </div>
+    </div>
+
+
+
+  </div>
+
+
+<div class="section">
+
+<h2>Ablation Study</h2>
+<div class="grid">
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/T-GVC/BasketballDrill_832x480_no_guidance.mp4" type="video/mp4">
+      </video>
+      <div class="caption">demo 1: BasketballDrill (no guidance)</div>
+    </div>
+
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/T-GVC/BasketballDrill_832x480_text.mp4" type="video/mp4">
+      </video>
+      <div class="caption">demo 2: BasketballDrill (text-guided)</div>
+    </div>
+
+    <div class="video-card">
+      <video controls autoplay muted loop>
+        <source src="results/T-GVC/BasketballDrill_832x480_text_traj.mp4" type="video/mp4">
+      </video>
+      <div class="caption">demo 3: BasketballDrill (trajectories+text-guided)</div>
+    </div>
+
+</div>
+
+ </div>
+
+</body>
+</html>
