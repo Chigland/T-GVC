@@ -1,5 +1,4 @@
 # T-GVC: Trajectory-guided Generative Video Coding
-T-GVC: Trajectory-guided Generative Video Coding
 
 demo for TGVC
 
