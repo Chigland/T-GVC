@@ -1,0 +1,100 @@
+{
+    "root_path": "./data/",
+    "test_datas": {
+        "HEVC_B": {
+            "test": 1,
+            "base_path": "HEVC_B",
+            "src_type": "png",
+            "sequences": {
+                "BQTerrace_1920x1080_60":       {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":60},
+                "BasketballDrive_1920x1080_50": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":50},
+                "Cactus_1920x1080_50":          {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":50},
+                "Kimono_1920x1080_24":         {"width": 512, "height": 320, "frames": 96, "intra_period": 96,  "fps":24},
+                "ParkScene_1920x1080_24":       {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":24}
+            }
+        },
+        "HEVC_E": {
+            "test": 1,
+            "base_path": "HEVC_E",
+            "src_type": "png",
+            "sequences": {
+                "FourPeople_1280x720_60":       {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":60},
+                "Johnny_1280x720_60":           {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":60},
+                "KristenAndSara_1280x720_60":   {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":60}
+            }
+        },
+        "HEVC_C": {
+            "test": 1,
+            "base_path": "HEVC_C",
+            "src_type": "png",
+            "sequences": {
+                "BQMall_832x480_60":            {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":60},
+                "BasketballDrill_832x480_50":   {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":50},
+                "PartyScene_832x480_50":        {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":50},
+                "RaceHorsesC_832x480_30":        {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30}
+            }
+        },
+        "HEVC_D": {
+            "test": 1,
+            "base_path": "HEVC_D",
+            "src_type": "png",
+            "sequences": {
+                "BasketballPass_416x240_50":    {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":50},
+                "BlowingBubbles_416x240_50":    {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":50},
+                "BQSquare_416x240_60":          {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":60},
+                "RaceHorses_416x240_30":        {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30}
+            }
+        },
+        "UVG": {
+            "test": 1,
+            "base_path": "UVG",
+            "src_type": "png",
+            "sequences": {
+                "Beauty_1920x1080_120fps_420_8bit_YUV":        {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":120},
+                "Bosphorus_1920x1080_120fps_420_8bit_YUV":     {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":120},
+                "HoneyBee_1920x1080_120fps_420_8bit_YUV":      {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":120},
+                "Jockey_1920x1080_120fps_420_8bit_YUV":        {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":120},
+                "ReadySteadyGo_1920x1080_120fps_420_8bit_YUV": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":120},
+                "ShakeNDry_1920x1080_120fps_420_8bit_YUV":     {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":120},
+                "YachtRide_1920x1080_120fps_420_8bit_YUV":     {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":120}
+            }
+        },
+        "MCL-JCV": {
+            "test": 1,
+            "base_path": "MCL-JCV",
+            "src_type": "png",
+            "sequences": {
+                "videoSRC01_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC02_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC03_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC04_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC05_1920x1080_25": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":25},
+                "videoSRC06_1920x1080_25": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":25},
+                "videoSRC07_1920x1080_25": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":25},
+                "videoSRC08_1920x1080_25": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":25},
+                "videoSRC09_1920x1080_25": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":25},
+                "videoSRC10_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC11_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC12_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC13_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC14_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC15_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC16_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC17_1920x1080_24": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":24},
+                "videoSRC18_1920x1080_25": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":25},
+                "videoSRC19_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC20_1920x1080_25": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":25},
+                "videoSRC21_1920x1080_24": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":24},
+                "videoSRC22_1920x1080_24": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":24},
+                "videoSRC23_1920x1080_24": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":24},
+                "videoSRC24_1920x1080_24": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":24},
+                "videoSRC25_1920x1080_24": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":24},
+                "videoSRC26_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC27_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC28_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30},
+                "videoSRC29_1920x1080_24": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":24},
+                "videoSRC30_1920x1080_30": {"width": 512, "height": 320, "frames": 96, "intra_period": 96, "fps":30}
+            }
+        }
+    }
+}
