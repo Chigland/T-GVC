@@ -7,8 +7,8 @@ By leveraging motion trajectories and powerful generative priors, T-GVC achieves
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assert/figure2.jpg">
-    <img src="assert/figure2.jpg" alt="Framework of T-GVC" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/figure2.jpg">
+    <img src="assets/figure2.jpg" alt="Framework of T-GVC" width="100%">
   </picture><br>
   <em>Figure 1. Overall framework of T-GVC.</em>
 </p>
@@ -21,8 +21,8 @@ By leveraging motion trajectories and powerful generative priors, T-GVC achieves
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assert/figure5.jpg">
-    <img src="assert/figure5.jpg" alt="Experimental results of T-GVC" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/figure5.jpg">
+    <img src="assets/figure5.jpg" alt="Experimental results of T-GVC" width="100%">
   </picture><br>
   <em>Figure 2.The R-D performance comparison results for HEVC Class B, Class C, UVG and MCL-JCV datasets.</em>
 </p>
