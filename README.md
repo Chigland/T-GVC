@@ -1,5 +1,8 @@
 # 🌀 T-GVC: Trajectory-Guided Generative Video Coding at Ultra-Low Bitrates
 
+> Project page for the paper:  
+> **T-GVC: Trajectory-Guided Generative Video Coding at Ultra-Low Bitrates**
+
 ## 🔍 Overview
 
 **T-GVC** introduces a **trajectory-guided generative video coding** framework designed for **ultra-low bitrate** scenarios.  
