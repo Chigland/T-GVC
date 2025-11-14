@@ -78,7 +78,7 @@ bash python encoder_module.py --tracker --data_config ./dataset_config_motion.js
 
 This code is based on or inspired by:
 
-- DynamiCrafter
+- **[DynamiCrafter](https://github.com/Doubiiu/DynamiCrafter)**
 
 If you find our work helpful, please cite us:
 
