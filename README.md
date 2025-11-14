@@ -1,4 +1,4 @@
-# 🌀 [AAAI-26] T-GVC: Trajectory-Guided Generative Video Coding at Ultra-Low Bitrates
+# 🌀 T-GVC: Trajectory-Guided Generative Video Coding at Ultra-Low Bitrates
 
 ## 🔍 Overview
 
