@@ -84,7 +84,7 @@ If you find our work helpful, please cite us:
 
 ```bibtex
 @inproceedings{wang2026t,
-  title={T-gvc: Trajectory-guided generative video coding at ultra-low bitrates},
+  title={{T-GVC}: Trajectory-guided generative video coding at ultra-low bitrates},
   author={Wang, Zhitao and Man, Hengyu and Li, Wenrui and Wang, Xingtao and Fan, Xiaopeng and Zhao, Debin},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   volume={40},
