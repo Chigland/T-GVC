@@ -83,10 +83,13 @@ This code is based on or inspired by:
 If you find our work helpful, please cite us:
 
 ```bibtex
-@article{wang2025t,
-  title={T-GVC: Trajectory-Guided Generative Video Coding at Ultra-Low Bitrates},
+@inproceedings{wang2026t,
+  title={T-gvc: Trajectory-guided generative video coding at ultra-low bitrates},
   author={Wang, Zhitao and Man, Hengyu and Li, Wenrui and Wang, Xingtao and Fan, Xiaopeng and Zhao, Debin},
-  journal={arXiv preprint arXiv:2507.07633},
-  year={2025}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={12},
+  pages={10430--10438},
+  year={2026}
 }
   
